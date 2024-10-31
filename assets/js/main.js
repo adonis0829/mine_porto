@@ -6,11 +6,12 @@ import animaScrollInit from "./animaScroll.js";
 import loadingInit from "./loading.js";
 import getYearsInit from "./years.js";
 
-menuLateralInit();
-scrollToTopInit();
-carrosselInit();
-linksInternosInit();
-animaScrollInit();
-loadingInit();
-getYearsInit();
-
+document.addEventListener("DOMContentLoaded", function() {
+    menuLateralInit();
+    scrollToTopInit();
+    carrosselInit();
+    linksInternosInit();
+    animaScrollInit();
+    loadingInit();
+    getYearsInit();
+});
