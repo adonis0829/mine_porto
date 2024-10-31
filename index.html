@@ -1,395 +1,385 @@
- <!DOCTYPE html>
- <html lang="pt-br">
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <title>BarrosDEV | Portfólio</title>
-     <!-- Descrição -->
-     <meta name="description" content="A nossa sociedade tem se tornado cada vez mais digital. Não fique para trás, posso ajudar você nessa jornada! Conheça meus projetos.">
+    <title>FullStackDev | Portfolio</title>
+    <!-- Description -->
+    <meta name="description" content="Our society has become increasingly digital. Don't be left behind, I can help you on this journey! Learn about my projects.">
 
-     <!-- Imagens para compartilhamento de links -->
-     <!-- MS Tile - for Microsoft apps-->
-     <meta name="msapplication-TileImage" content="https://barrosdev.vercel.app/assets/img/barrosdevshare.jpg">
-     <!-- Facebook e Whatsapp -->
-     <meta property="og:locale" content="pt_BR">
-     <meta property="og:site_name" content="BarrosDEV | Portfólio">
-     <meta property="og:title" content="BarrosDEV | Até onde o poder dos códigos pode nos levar?">
-     <meta property="og:description" content="A nossa sociedade tem se tornado cada vez mais digital. Não fique para trás, posso ajudar você nessa jornada! Conheça meus projetos.">
-     <meta property="og:image" itemprop="image" content="https://raw.githubusercontent.com/gc-barros/barrosdev/main/assets/img/share1200.png">
-     <meta property="og:image" itemprop="image" content="https://barrosdev.vercel.app/assets/img/barrosdevshare.jpg">
-     <meta property="og:image:secure_url" content="https://barrosdev.vercel.app/assets/img/barrosdevshare.jpg">
-     <meta property="og:image:type" content="image/jpeg">
-     <meta property="og:type" content="website">
-     <meta property="og:url" content="https://barrosdev.com.br/">
-     <!-- Twitter -->
-     <meta name="twitter:title" content="BarrosDEV | Até onde o poder dos códigos pode nos levar?">
-     <meta name="twitter:description" content="A nossa sociedade tem se tornado cada vez mais digital. Não fique para trás, posso ajudar você nessa jornada! Conheça meus projetos.">
-     <meta name="twitter:image" content="https://barrosdev.vercel.app/assets/img/barrosdevshare.jpg">
-     <meta name="twitter:card" content="summary">
+    <!-- Image for link sharing -->
+    <!-- MS Tile - for Microsoft apps-->
+    <meta name="msapplication-TileImage" content="https://barrosdev.vercel.app/assets/img/barrosdevshare.jpg">
+    <!-- Facebook and Whatsapp -->
+    <meta property="og:site_name" content="FullStackDev | Portfolio">
+    <meta property="og:title" content="FullStackDev | How far can the power of codes take us?">
+    <meta property="og:description" content="Our society has become increasingly digital. Don't be left behind, I can help you on this journey! Learn about my projects.">
+    <meta property="og:image" itemprop="image" content="https://raw.githubusercontent.com/gc-barros/barrosdev/main/assets/img/share1200.png">
+    <meta property="og:image" itemprop="image" content="https://barrosdev.vercel.app/assets/img/barrosdevshare.jpg">
+    <meta property="og:image:secure_url" content="https://barrosdev.vercel.app/assets/img/barrosdevshare.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://barrosdev.com.br/">
+    <!-- Twitter -->
+    <meta name="twitter:title" content="FullStackDev | How far can the power of codes take us?">
+    <meta name="twitter:description" content="Our society has become increasingly digital. Don't be left behind, I can help you on this journey! Learn about my projects.">
+    <meta name="twitter:image" content="https://barrosdev.vercel.app/assets/img/barrosdevshare.jpg">
+    <meta name="twitter:card" content="summary">
 
-     <!-- Cor customizada para dispositivos móveis -->
-     <meta name="theme-color" content="#1D4956">
+    <!-- Custom color for mobile devices -->
+    <meta name="theme-color" content="#1D4956">
 
-     <!-- Favicon -->
-     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-     <!-- Ícons externos -->
-     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-     <!-- CSS -->
-     <link rel="stylesheet" href="assets/css/base.css">
-     <link rel="stylesheet" href="assets/css/cabecalho.css">
-     <link rel="stylesheet" href="assets/css/introducao.css">
-     <link rel="stylesheet" href="assets/css/sobre.css">
-     <link rel="stylesheet" href="assets/css/habilidades.css">
-     <link rel="stylesheet" href="assets/css/projetos.css">
-     <link rel="stylesheet" href="assets/css/citacao.css">
-     <link rel="stylesheet" href="assets/css/contato.css">
-     <link rel="stylesheet" href="assets/css/botaoTopo.css">
-     <link rel="stylesheet" href="assets/css/animate.css">
-     <link rel="stylesheet" href="assets/css/digitando.css">
-     <link rel="stylesheet" href="assets/css/loading.css">
- </head>
- <body>
-     <div class="loading">
-         <div class="loading__img">
-             <img src="assets/img/loading-1.svg" alt="Antibug">
-         </div>
-     </div>
-     <div class="container-principal">
-         <header class="cabecalho vidro">
-             <div class="cabecalho-container"> 
-                 <h1 class="cabecalho__logo" data-logo>
-                     <img src="assets/img/barrosdev.svg" alt="Logo BarrosDEV">
-                 </h1>
-                 <button class="cabecalho__hamburguer" aria-label="Menu lateral" title="Menu lateral"><i class="ri-menu-line" data-hamburguer></i></button>
-                 <nav class="cabecalho__navegacao">
-                    <ul class="cabecalho__menu" data-menu>
-                        <li class="cabecalho__item">
-                             <a href="#sobre" class="cabecalho__link cabecalho__link--sobre" data-botao="sobre">Sobre</a>
-                        </li>
-                        <li class="cabecalho__item">
-                             <a href="#habilidades" class="cabecalho__link cabecalho__link--habilidades" data-botao="habilidades">Habilidades</a>
-                        </li>
-                        <li class="cabecalho__item">
-                             <a href="#projetos" class="cabecalho__link cabecalho__link--projetos" data-botao="projetos">Projetos</a>
-                        </li>
-                        <li class="cabecalho__item">
-                            <a href="#contato" class="cabecalho__link cabecalho__link--contato" data-botao="contato">Contato</a>
-                        </li>
-                    </ul>
-                 </nav>
-                <button class="botao botao-secundario botao-contato" data-botao="contato">
-                    <span class="texto-gradient texto-contato">Contato</span>
-                </button>
-             </div>
-         </header>
-         
-         <main class="conteudo">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- External icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/introduction.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/quote.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/buttonTop.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/typing.css">
+    <!-- <link rel="stylesheet" href="assets/css/loading.css"> -->
+</head>
+<body>
+    <div class="loading">
+        <div class="loading__img">
+            <img src="assets/img/loading-1.svg" alt="Antibug">
+        </div>
+    </div>
+    <div class="container-main">
+        <header class="header glass">
+            <div class="header-container"> 
+                <h1 class="header__logo" data-logo>
+                    <img src="assets/img/barrosdev.svg" alt="Logo FullStackDev">
+                </h1>
+                <button class="header__hamburger" aria-label="Side menu" title="Side menu"><i class="ri-menu-line" data-hamburger></i></button>
+                <nav class="header__navigation">
+                   <ul class="header__menu" data-menu>
+                       <li class="header__item">
+                            <a href="#about" class="header__link header__link--about" data-button="about">About</a>
+                       </li>
+                       <li class="header__item">
+                            <a href="#skills" class="header__link header__link--skills" data-button="skills">Skills</a>
+                       </li>
+                       <li class="header__item">
+                            <a href="#projects" class="header__link header__link--projects" data-button="projects">Projects</a>
+                       </li>
+                       <li class="header__item">
+                           <a href="#contact" class="header__link header__link--contact" data-button="contact">Contact</a>
+                       </li>
+                   </ul>
+                </nav>
+               <button class="button button-secondary button-contact" data-button="contact">
+                   <span class="text-gradient text-contact">Contact</span>
+               </button>
+            </div>
+        </header>
+        
+        <main class="content">
 
-             <section class="introducao" id="introducao">
-                <div class="introducao__decoracao"></div>
-                <div class="introducao__texto vidro" data-anima="left">
-                    <h2 class="introducao__titulo">Até onde o <span class="texto-gradient">poder</span> dos códigos pode nos levar?</h2>
-                    <p class="introducao__corpo">A nossa sociedade tem se tornado cada vez mais digital. Não fique para trás, posso ajudar você nessa jornada!</p>
-                    <div class="caixa-botao">
-                        <button class="botao botao-primario" data-botao="habilidades">Saiba mais</button>
-                        <button class="botao botao-secundario" data-botao="sobre"><span class="texto-gradient">Quem sou eu?</span></button>
-                    </div>
-                </div>
-             </section>
+            <section class="introduction" id="introduction">
+               <div class="introduction__decoration"></div>
+               <div class="introduction__text glass" data-animate="left">
+                   <h2 class="introduction__title">How far can the <span class="text-gradient">power</span> of code take us?</h2>
+                   <p class="introduction__body">Our society has become increasingly digital. Don’t get left behind; I can help you on this journey!</p>
+                   <div class="button-box">
+                       <button class="button button-primary" data-button="skills">Learn more</button>
+                       <button class="button button-secondary" data-button="about"><span class="text-gradient">Who am I?</span></button>
+                   </div>
+               </div>
+            </section>
 
-             <button class="botao-topo" aria-label="Botão voltar ao topo" title="Voltar ao topo da página" data-scrollToTop><i class="ri-arrow-up-s-line"></i></button>
+            <button class="button-top" aria-label="Button to return to the top" title="Return to the top of the page" data-scrollToTop><i class="ri-arrow-up-s-line"></i></button>
 
-             <section class="sobre" id="sobre">
-                 <div class="sobre__container vidro">
-                     <h2 class="titulo-secao" data-anima="typing">Sobre mim</h2>
+            <section class="about" id="about">
+                <div class="about__container glass">
+                    <h2 class="section-title" data-animate="typing">About me</h2>
 
-                     <div class="sobre__apresentacao" data-anima="right">
-                         <div class="sobre__hello">
-                             <p class="sobre__hello--code">Hello, world! I'm</p>
-                             <img src="assets/img/logobarrosdev.svg" alt="Logo BarrosDEV" class="sobre__hello--logo">
-                         </div>
-                         <img src="assets/img/avatares/sorridente.png" alt="BarrosDEV sorridente" class="sobre__apresentacao--avatar">
-                     </div>
-
-                     <div class="sobre__ficha" data-anima="left">
-                         <img src="assets/img/avatares/meditando.png" alt="BarrosDEV meditando" class="sobre__ficha--avatar">
-                         <div class="sobre__ficha--conteudo">
-                             <h3 class="subtitulo-secao">Ficha técnica</h3>
-                             <ul class="sobre__card">
-                                <li class="sobre__card--item"><strong>Nome:</strong> Gabriel Costa Barros</li>
-                                <li class="sobre__card--item"><strong>Idade:</strong> <span data-idade>22 anos</span></li>
-                                <li class="sobre__card--item"><strong>Naturalidade:</strong> São Luís - MA</li>
-                                <li class="sobre__card--item"><strong>Formação:</strong> Bacharel em Ciência e Tecnologia (UFMA)</li>
-                                <li class="sobre__card--item"><strong>Estudando:</strong> ADS (UNINTER)</li>
-                                <li class="sobre__card--item"><strong>Área de atuação:</strong> Desenvolvedor Front-end</li>
-                             </ul>
-                         </div>
-                     </div>
-
-                     <div class="sobre__quote" data-anima="right">
-                         <q class="sobre__quote--texto">
-                            Venho buscando me qualificar ao máximo, <strong class="texto-gradient">sempre à procura de cursos, desafios e experiências</strong> que acrescentem à minha formação, tanto no lado pessoal como no profissional, para assim conseguir mudar o mundo através do poder dos códigos!
-                         </q>
-                         <img src="assets/img/avatares/lendo.png" alt="BarrosDEV lendo um livro" class="sobre__quote--avatar">
-                     </div>
-
-                     <div class="sobre__cinto" data-anima="left">
-                         <div class="sobre__cinto--container">
-                             <img src="assets/img/avatares/laptop.png" alt="Laptop com o logotipo BarrosDEV" class="sobre__cinto--imagem">
-                            <div class="sobre__cinto--conteudo">
-                                <h3 class="subtitulo-secao">Cinto de utilidades</h3>
-                                <p class="sobre__cinto--texto">Algumas das linguagens de programação, ferramentas e outras tecnologias que já tive contato:</p>
-
-                                <ul class="sobre__cinto--techs">
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/html.svg" alt="HTML5" title="HTML5">
-                                        <span>HTML5</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/css.svg" alt="CSS3" title="CSS3">
-                                        <span>CSS3</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/js.svg" alt="JavaScript" title="JavaScript">
-                                        <span>JS</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/ts.svg" alt="TypeScript" title="TypeScript">
-                                        <span>TS</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/vue.svg" alt="Vue.js" title="Vue.js">
-                                        <span>Vue.js</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/react.svg" alt="React" title="React">
-                                        <span>React</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/next.svg" alt="Next.js" title="Next.js">
-                                        <span>Next</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/sass.svg" alt="Sass" title="Sass">
-                                        <span>Sass</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/py.svg" alt="Python" title="Python">
-                                        <span>Python</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/c.svg" alt="Linguagem C" title="Linguagem C">
-                                        <span>C</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/java.svg" alt="Java" title="Java">
-                                        <span>Java</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/mysql.svg" alt="MySQL" title="MySQL">
-                                        <span>MySQL</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/figma.svg" alt="Figma" title="Figma">
-                                        <span>Figma</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/psd.svg" alt="Photoshop" title="Photoshop">
-                                        <span>Ps</span>
-                                    </li>
-                                    <!-- <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/trello.svg" alt="Trello" title="Trello">
-                                        <span>Trello</span>
-                                    </li> -->
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/github.svg" alt="GitHub" title="GitHub">
-                                        <span>GitHub</span>
-                                    </li>
-                                    <li class="sobre__cinto--tech">
-                                        <img src="assets/img/icons/techs/git.svg" alt="Git" title="Git">
-                                        <span>Git</span>
-                                    </li>
-                                </ul>
-
-                                <p class="sobre__cinto--texto">Meus próximos passos incluem especializações em frameworks que estão em alta no mercado, como <strong class="texto-gradient">React, Vue, Angular e Django</strong>, por exemplo, e outras tecnologias voltadas para o desenvolvimento web e mobile.</p>
-                            </div>
-                         </div>
-                     </div>
-
-                     <div class="sobre__chamada" data-anima="bottom">
-                         <img src="assets/img/avatares/logotipo.svg" alt="Logotipo BarrosDEV" class="sobre__chamada--imagem">
-                         <p class="sobre__chamada--texto">Nos últimos meses, tenho estudado bastante e desenvolvi alguns trabalhos bem legais. Que tal conhecer alguns deles?</p>
-                        <div class="caixa-botao">
-                            <button class="botao botao-primario" data-botao="projetos">Ver projetos</button>
-                            <button class="botao botao-secundario" data-botao="contato"><span class="texto-gradient">Fale comigo</span></button>
+                    <div class="about__presentation" data-animate="right">
+                        <div class="about__hello">
+                            <p class="about__hello--code">Hello, world! I'm</p>
+                            <img src="assets/img/logobarrosdev.svg" alt="Logo FullStackDev" class="about__hello--logo">
                         </div>
-                     </div>
-
-                 </div>
-             </section>
-
-             <section class="habilidades" id="habilidades">
-                <div class="habilidades__intro">
-                    <div class="habilidades__texto" data-anima="left">
-                        <h2 class="titulo-secao digitando-nocenter" data-anima="typing">Habilidades</h2>
-                        <p class="habilidades__corpo">Posso agregar valor ao seu negócio de diversas formas, aqui estão algumas das minhas principais <strong>habilidades técnicas e atividades que gosto de desempenhar</strong>:</p>
-                    </div>
-                    <img src="assets/img/avatares/callme.png" alt="BarrosDEV fazendo um hang loose com a mão" class="habilidades__avatar" data-anima="right">
-                </div>
-                <div class="habilidades__cards">
-                    <div class="habilidades__card vidro" data-anima="bottom">
-                        <h3 class="habilidades__card--titulo">Design e prototipação de websites</h3>
-                        <p class="habilidades__card--descricao">Construção de protótipos no Figma, com layouts que melhor se adequem às suas necessidades e à identidade visual da sua marca.</p>
-                        <button class="botao botao-secundario habilidades__card--botao" data-botao="contato">Entrar em contato</button>
-                    </div>
-                    <div class="habilidades__card habilidades__card--principal vidro" data-anima="bottom">
-                        <h3 class="habilidades__card--titulo">Desenvolvimento Web: Front-end</h3>
-                        <p class="habilidades__card--descricao">Codificação do seu website, utilizando HTML5, CSS3 e React, além das melhores práticas de SEO e acessibilidade, colocando o projeto final no ar.</p>
-                        <button class="botao botao-secundario habilidades__card--botao" data-botao="contato">Entrar em contato</button>
-                    </div>
-                    <div class="habilidades__card vidro" data-anima="bottom">
-                        <h3 class="habilidades__card--titulo">Criação de identidades visuais e artes</h3>
-                        <p class="habilidades__card--descricao">Design de logos, banners, panfletos, cartões de visita, artes para produtos personalizados, edições de imagem, dentre outros.</p>
-                        <button class="botao botao-secundario habilidades__card--botao" data-botao="contato">Entrar em contato</button>
-                    </div>
-                </div>
-             </section>
-
-             <section class="projetos" id="projetos">
-                <div>
-                    <h2 class="titulo-secao" data-anima="typing">Projetos</h2>
-                    <p class="projetos__texto" data-anima="bottom">Logo abaixo, apresento alguns dos últimos projetos, individuais e em equipes, que participei como <strong class="texto-gradient">designer e desenvolvedor front-end</strong>. Você pode encontrar estes e outros trabalhos nos <a href="https://github.com/gc-barros?tab=repositories" target="_blank" rel="noreferrer" class="github-link">meus repositórios do GitHub</a>!</p>
-                </div>
-                <div class="projetos__projeto vidro" data-anima="bottom">
-                    <div class="projetos__descricao">
-                        <h3 class="subtitulo-secao" data-projeto="titulo">Título do projeto</h3>
-                        <a href="" target="_blank" class="texto-gradient projetos__link" data-projeto="link" rel="noreferrer">https://linkdoprojeto.vercel.app/</a>
-                        <p class="projetos__projeto--detalhes" data-projeto="detalhes">
-                            A Blue Wand é um grupo 100% maranhense de apoio a homens acometidos por câncer de pênis. Nosso objetivo é combater a desinformação, incentivar a prevenção e o tratamento para esta doença.
-                        </p>
-                        <h4 class="subtitulo-secao subtitulo-techs">Tecnologias:</h4>
-                        <ul class="projetos__techs" data-projeto="techs">
-                            <li class="projetos__techs--item" title="HTML5"></li>
-                            <li class="projetos__techs--item" title="CSS3"></li>
-                            <li class="projetos__techs--item" title="JavaScript"></li>
-                            <li class="projetos__techs--item" title="Sass"></li>
-                            <li class="projetos__techs--item" title="TypeScript"></li>
-                            <li class="projetos__techs--item" title="Next"></li>
-                            <li class="projetos__techs--item" title="React"></li>
-                            <li class="projetos__techs--item" title="Figma"></li>
-                            <li class="projetos__techs--item" title="Trello"></li>
-                            <li class="projetos__techs--item" title="GitHub"></li>           
-                        </ul>
-                        <div class="caixa-botao">
-                            <button class="botao botao-primario" data-botao="visitar" onclick="">Visitar o site</button>
-                            <button class="botao botao-secundario" data-botao="repositorio" onclick=""><span class="texto-gradient">Ir ao repositório</span></button>
-                        </div>
+                        <img src="assets/img/avatars/smiling.png" alt="FullStackDev smiling" class="about__presentation--avatar">
                     </div>
 
-                    <div class="projetos__carrossel">
-
-                        <button class="projetos__carrossel--botao projetos__carrossel--botao-left" aria-label="Botão ir para o anterior" title="Ir para o projeto anterior" data-botao-anterior><i class="ri-arrow-left-line"></i></button>
-
-                        <div class="projetos__carrossel--imagem">
-                            <ul class="projetos__carrossel--lista" data-carrossel>
-                                <li class="projetos__carrossel--imagem-item"><img alt="Aluracord - Bulbasaur" src="assets/img/thumbs/aluracord.jpg" class="projetos__carrossel--imagem-gif"></li>
-
-                                <li class="projetos__carrossel--imagem-item"><img alt="Projeto Encurtalinks" src="assets/img/thumbs/encurtalinks.jpg" class="projetos__carrossel--imagem-gif"></li>
-
-                                <li class="projetos__carrossel--imagem-item"><img alt="Projeto Cineperfil" src="assets/img/thumbs/cineperfil.jpg" class="projetos__carrossel--imagem-gif"></li>
-
-                                <li class="projetos__carrossel--imagem-item"><img alt="Projeto Ballerini Devs" src="assets/img/thumbs/ballerinidevs.jpg" class="projetos__carrossel--imagem-gif"></li>
-                                
-                                <li class="projetos__carrossel--imagem-item"><img alt="Página inicial do projeto +inova." src="assets/img/thumbs/maisinova.jpg" class="projetos__carrossel--imagem-gif"></li>
-
-                                <li class="projetos__carrossel--imagem-item"><img alt="Landing page do Projeto Blue Wand" src="assets/img/thumbs/bluewand.jpg" class="projetos__carrossel--imagem-gif"></li>
-                                
-                                <li class="projetos__carrossel--imagem-item"><img alt="Landing page do Projeto Por Elas" src="assets/img/thumbs/porelas.jpg" class="projetos__carrossel--imagem-gif"></li>
-
-                                <li class="projetos__carrossel--imagem-item"><img alt="Página inicial do website 'Éguas, Siow!'" src="assets/img/thumbs/eguassiow.jpg" class="projetos__carrossel--imagem-gif"></li>
-
-                                <li class="projetos__carrossel--imagem-item"><img alt="PetPlanet páginas principais" src="assets/img/thumbs/petplanet.jpg" class="projetos__carrossel--imagem-gif"></li>
-
-                                <!-- <li class="projetos__carrossel--imagem-item"><img alt="PetPlanet página do usuário" src="assets/img/thumbs/petplanetuser.jpg" class="projetos__carrossel--imagem-gif"></li> -->
+                    <div class="about__info" data-animate="left">
+                        <img src="assets/img/avatars/meditating.png" alt="FullStackDev meditating" class="about__info--avatar">
+                        <div class="about__info--content">
+                            <h3 class="section-subtitle">Technical Profile</h3>
+                            <ul class="about__card">
+                               <li class="about__card--item"><strong>Name:</strong> Chris Lauber</li>
+                               <li class="about__card--item"><strong>Age:</strong> <span data-age>35 years</span></li>
+                               <li class="about__card--item"><strong>Nationality:</strong>American</li>
+                               <li class="about__card--item"><strong>Education:</strong> Bachelor Degree of Computer Science</li>
+                               <li class="about__card--item"><strong>Area of Expertise:</strong> FullStack Developer</li>
                             </ul>
                         </div>
+                    </div>
 
-                        <button class="projetos__carrossel--botao projetos__carrossel--botao-right" aria-label="Botão ir para o próximo" title="Ir para o próximo projeto" data-botao-proximo><i class="ri-arrow-right-line"></i></button>
+                    <div class="about__quote" data-animate="right">
+                        <q class="about__quote--text">
+                           I've been striving to qualify myself as much as possible, <strong class="text-gradient">always seeking courses, challenges, and experiences</strong> that add to my professional and personal growth, so I can change the world through the power of code!
+                        </q>
+                        <img src="assets/img/avatars/reading.png" alt="FullStackDev reading a book" class="about__quote--avatar">
+                    </div>
 
-                        <div class="projetos__carrossel--indicadores" data-navegacao>
-                            <button class="projetos__carrossel--indicador carousel__indicador--ativo" aria-label="Botão indicador" data-indicador="0"></button>
-                            <button class="projetos__carrossel--indicador" aria-label="Botão indicador" data-indicador="1"></button>
-                            <button class="projetos__carrossel--indicador" aria-label="Botão indicador" data-indicador="2"></button>
-                            <button class="projetos__carrossel--indicador" aria-label="Botão indicador" data-indicador="3"></button>
-                            <button class="projetos__carrossel--indicador" aria-label="Botão indicador" data-indicador="4"></button>
-                            <button class="projetos__carrossel--indicador" aria-label="Botão indicador" data-indicador="5"></button>
-                            <button class="projetos__carrossel--indicador" aria-label="Botão indicador" data-indicador="6"></button>
-                            <button class="projetos__carrossel--indicador" aria-label="Botão indicador" data-indicador="7"></button>
-                            <button class="projetos__carrossel--indicador" aria-label="Botão indicador" data-indicador="8"></button>
+                    <div class="about__belt" data-animate="left">
+                        <div class="about__belt--container">
+                            <img src="assets/img/avatars/laptop.png" alt="Laptop with FullStackDev logo" class="about__belt--image">
+                           <div class="about__belt--content">
+                               <h3 class="section-subtitle">Skill Set</h3>
+                               <p class="about__belt--text">Some of the programming languages, tools, and other technologies I've worked with:</p>
+
+                               <ul class="about__belt--techs">
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/html.svg" alt="HTML5" title="HTML5">
+                                       <span>HTML5</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/css.svg" alt="CSS3" title="CSS3">
+                                       <span>CSS3</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/js.svg" alt="JavaScript" title="JavaScript">
+                                       <span>JS</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/ts.svg" alt="TypeScript" title="TypeScript">
+                                       <span>TS</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/vue.svg" alt="Vue.js" title="Vue.js">
+                                       <span>Vue.js</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/react.svg" alt="React" title="React">
+                                       <span>React</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/next.svg" alt="Next.js" title="Next.js">
+                                       <span>Next</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/sass.svg" alt="Sass" title="Sass">
+                                       <span>Sass</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/py.svg" alt="Python" title="Python">
+                                       <span>Python</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/c.svg" alt="C Language" title="C Language">
+                                       <span>C</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/java.svg" alt="Java" title="Java">
+                                       <span>Java</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/mysql.svg" alt="MySQL" title="MySQL">
+                                       <span>MySQL</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/figma.svg" alt="Figma" title="Figma">
+                                       <span>Figma</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/psd.svg" alt="Photoshop" title="Photoshop">
+                                       <span>Ps</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/github.svg" alt="GitHub" title="GitHub">
+                                       <span>GitHub</span>
+                                   </li>
+                                   <li class="about__belt--tech">
+                                       <img src="assets/img/icons/techs/git.svg" alt="Git" title="Git">
+                                       <span>Git</span>
+                                   </li>
+                               </ul>
+
+                               <p class="about__belt--text">My next steps include specializing in popular frameworks like <strong class="text-gradient">React, Vue, Angular, and Django</strong>, among others focused on web and mobile development.</p>
+                           </div>
                         </div>
                     </div>
-                </div>
-             </section>
 
-             <aside class="citacao">
-                 <img src="assets/img/barrosdevlogo-white.svg" alt="Logo BarrosDEV" class="citacao__logo" data-anima="left">
-                 <q class="citacao__frase" data-anima="right">Nós só podemos ver um pouco do futuro, mas o suficiente para perceber que há muito a fazer. <br><strong>- Alan Turing</strong></q>
-             </aside>
-
-             <section class="contato" id="contato">
-                <div class="contato__container vidro">
-                    <form action="https://formsubmit.co/33c2e220200913dc0ef7ee8106b6773e" method="POST" class="contato__formulario" data-anima="left">
-                        <h2 class="titulo-secao">Contato</h2>
-
-                        <input type="hidden" name="_autoresponse" value="BarrosDEV | Olá, fiquei muito feliz ao receber a sua mensagem! Obrigado por reconhecer o meu trabalho, em breve estarei entrando em contato com você, abraços. ;)">
-
-                        <div class="input-wrp">
-                            <input type="text" name="name" id="name" class="contato__formulario--campo" data-campo="nome" required>
-                            <label for="name" class="contato__formulario--label" data-label="nome">Nome</label>
-                        </div>
-                        <div class="input-wrp">
-                            <input type="text" id="email" name="email" class="contato__formulario--campo" data-campo="email" required>
-                            <label for="email" class="contato__formulario--label" data-label="email">E-mail</label>
-                        </div>
-                        <div class="input-wrp">
-                            <input type="text" name="_subject" id="assunto" class="contato__formulario--campo" data-campo="assunto" required>
-                            <label for="assunto" class="contato__formulario--label" data-label="assunto">Assunto</label>
-                        </div>
-                        <div class="input-wrp textarea">
-                            <textarea id="message" name="message" class="contato__formulario--campo" data-campo="mensagem" required maxlength="280"></textarea>
-                            <label for="message" class="contato__formulario--label" data-label="mensagem">Mensagem</label>
-                        </div>
-
-                        <button type="submit" class="botao botao-primario">Enviar</button>
-                    </form>
-
-                    <div class="contato__texto" data-anima="right">
-                        <h3 class="subtitulo-secao">Vamos bater um papo?</h3>
-                        <p class="contato__corpo">Estou sempre aberto ao diálogo, troca de ideias e novas conexões! Posso te ajudar de alguma forma? Sinta-se à vontade para entrar em contato comigo por meio do formulário ou através das minhas redes sociais:</p>
-                        <ul class="contato__redes">
-                            <li class="contato__rede">
-                                <a href="https://www.linkedin.com/in/gabrielcbarros/" title="Linkedin" target="_blank" rel="noreferrer"><i class="ri-linkedin-box-fill"></i></a>
-                            </li>
-                            <!-- <li class="contato__rede">
-                                <a href="https://www.instagram.com/gabri.elbarros/" title="Instagram" target="_blank" rel="noreferrer"><i class="ri-instagram-line"></i></a>
-                            </li> -->
-                            <li class="contato__rede">
-                                <a href="https://github.com/gc-barros" title="GitHub" target="_blank" rel="noreferrer"><i class="ri-github-fill"></i></a>
-                            </li>
-                            <li class="contato__rede">
-                                <a href="mailto:gc.barros81@gmail.com?subject=BarrosDEV, precisamos conversar!" title="E-mail" target="_blank" rel="noreferrer"><i class="ri-mail-line"></i></a>
-                            </li>
-                        </ul>
-                        <img class="contato__avatar" src="assets/img/avatares/bebida.png" alt="BarrosDEV pronto para uma conversa">
+                    <div class="about__call" data-animate="bottom">
+                        <img src="assets/img/avatars/logo.svg" alt="FullStackDev logo" class="about__call--image">
+                        <p class="about__call--text">In recent months, I've been studying a lot and developed some really cool projects. How about checking them out?</p>
+                       <div class="button-box">
+                           <button class="button button-primary" data-button="projects">View projects</button>
+                           <button class="button button-secondary" data-button="contact"><span class="text-gradient">Contact me</span></button>
+                       </div>
                     </div>
-                </div>
-             </section>
-         </main>
-         <footer class="rodape">&copy;&nbsp;<span data-anoAtual>2021</span>&nbsp;Barrosdev. All rights reserved. Powered by: Gabriel C. Barros.</footer>
-     </div>
 
-     <script type="module" src="assets/js/main.js"></script>
- </body>
- </html>
+                </div>
+            </section>
+
+            <section class="skills" id="skills">
+               <div class="skills__intro">
+                   <div class="skills__text" data-animate="left">
+                       <h2 class="section-title typing-nocenter" data-animate="typing">Skills</h2>
+                       <p class="skills__body">I can add value to your business in various ways; here are some of my main <strong>technical skills and activities I enjoy performing</strong>:</p>
+                   </div>
+                   <img src="assets/img/avatars/callme.png" alt="FullStackDev giving a hang loose" class="skills__avatar" data-animate="right">
+               </div>
+               <div class="skills__cards">
+                   <div class="skills__card glass" data-animate="bottom">
+                       <h3 class="skills__card--title">Website Design and Prototyping</h3>
+                       <p class="skills__card--description">Building prototypes in Figma, with layouts best suited to your needs and brand's visual identity.</p>
+                       <button class="button button-secondary skills__card--button" data-button="contact">Get in touch</button>
+                   </div>
+                   <div class="skills__card skills__card--main glass" data-animate="bottom">
+                       <h3 class="skills__card--title">Web Development: Front-end</h3>
+                       <p class="skills__card--description">Coding your website using HTML5, CSS3, and React, along with SEO and accessibility best practices, getting the final project live.</p>
+                       <button class="button button-secondary skills__card--button" data-button="contact">Get in touch</button>
+                   </div>
+                   <div class="skills__card glass" data-animate="bottom">
+                       <h3 class="skills__card--title">Visual Identity and Art Creation</h3>
+                       <p class="skills__card--description">Design of logos, banners, flyers, business cards, custom product designs, image editing, and more.</p>
+                       <button class="button button-secondary skills__card--button" data-button="contact">Get in touch</button>
+                   </div>
+               </div>
+            </section>
+
+            <section class="projects" id="projects">
+               <div>
+                   <h2 class="section-title" data-animate="typing">Projects</h2>
+                   <p class="projects__text" data-animate="bottom">Below are some of the latest projects I participated in, individually and in teams, as a <strong class="text-gradient">designer and front-end developer</strong>. You can find these and other works in my <a href="https://github.com/gc-barros?tab=repositories" target="_blank" rel="noreferrer" class="github-link">GitHub repositories</a>!</p>
+               </div>
+               <div class="projects__project glass" data-animate="bottom">
+                   <div class="projects__description">
+                       <h3 class="section-subtitle" data-project="title">Project Title</h3>
+                       <a href="" target="_blank" class="text-gradient projects__link" data-project="link" rel="noreferrer">https://projectlink.vercel.app/</a>
+                       <p class="projects__project--details" data-project="details">
+                           Blue Wand is a 100% Maranhão-based group supporting men affected by penile cancer. Our goal is to combat misinformation, promote prevention, and support treatment for this disease.
+                       </p>
+                       <h4 class="section-subtitle subtitle-techs">Technologies:</h4>
+                       <ul class="projects__techs" data-project="techs">
+                           <li class="projects__techs--item" title="HTML5"></li>
+                           <li class="projects__techs--item" title="CSS3"></li>
+                           <li class="projects__techs--item" title="JavaScript"></li>
+                           <li class="projects__techs--item" title="Sass"></li>
+                           <li class="projects__techs--item" title="TypeScript"></li>
+                           <li class="projects__techs--item" title="Next"></li>
+                           <li class="projects__techs--item" title="React"></li>
+                           <li class="projects__techs--item" title="Figma"></li>
+                           <li class="projects__techs--item" title="Trello"></li>
+                           <li class="projects__techs--item" title="GitHub"></li>           
+                       </ul>
+                       <div class="button-box">
+                           <button class="button button-primary" data-button="visit" onclick="">Visit the site</button>
+                           <button class="button button-secondary" data-button="repository" onclick=""><span class="text-gradient">Go to repository</span></button>
+                       </div>
+                   </div>
+
+                   <div class="projects__carousel">
+
+                       <button class="projects__carousel--button projects__carousel--button-left" aria-label="Previous button" title="Go to previous project" data-button-previous><i class="ri-arrow-left-line"></i></button>
+
+                       <div class="projects__carousel--image">
+                           <ul class="projects__carousel--list" data-carousel>
+                               <li class="projects__carousel--image-item"><img alt="Aluracord - Bulbasaur" src="assets/img/thumbs/aluracord.jpg" class="projects__carousel--image-gif"></li>
+
+                               <li class="projects__carousel--image-item"><img alt="Project Encurtalinks" src="assets/img/thumbs/encurtalinks.jpg" class="projects__carousel--image-gif"></li>
+
+                               <li class="projects__carousel--image-item"><img alt="Project Cineperfil" src="assets/img/thumbs/cineperfil.jpg" class="projects__carousel--image-gif"></li>
+
+                               <li class="projects__carousel--image-item"><img alt="Project Ballerini Devs" src="assets/img/thumbs/ballerinidevs.jpg" class="projects__carousel--image-gif"></li>
+                               
+                               <li class="projects__carousel--image-item"><img alt="Homepage of project +inova" src="assets/img/thumbs/maisinova.jpg" class="projects__carousel--image-gif"></li>
+
+                               <li class="projects__carousel--image-item"><img alt="Landing page of Project Blue Wand" src="assets/img/thumbs/bluewand.jpg" class="projects__carousel--image-gif"></li>
+                               
+                               <li class="projects__carousel--image-item"><img alt="Landing page of Project For Her" src="assets/img/thumbs/porelas.jpg" class="projects__carousel--image-gif"></li>
+
+                               <li class="projects__carousel--image-item"><img alt="Homepage of website 'Éguas, Siow!'" src="assets/img/thumbs/eguassiow.jpg" class="projects__carousel--image-gif"></li>
+
+                               <li class="projects__carousel--image-item"><img alt="Main pages of PetPlanet" src="assets/img/thumbs/petplanet.jpg" class="projects__carousel--image-gif"></li>
+
+                           </ul>
+                       </div>
+
+                       <button class="projects__carousel--button projects__carousel--button-right" aria-label="Next button" title="Go to next project" data-button-next><i class="ri-arrow-right-line"></i></button>
+
+                       <div class="projects__carousel--indicators" data-navigation>
+                           <button class="projects__carousel--indicator carousel__indicator--active" aria-label="Indicator button" data-indicator="0"></button>
+                           <button class="projects__carousel--indicator" aria-label="Indicator button" data-indicator="1"></button>
+                           <button class="projects__carousel--indicator" aria-label="Indicator button" data-indicator="2"></button>
+                           <button class="projects__carousel--indicator" aria-label="Indicator button" data-indicator="3"></button>
+                           <button class="projects__carousel--indicator" aria-label="Indicator button" data-indicator="4"></button>
+                           <button class="projects__carousel--indicator" aria-label="Indicator button" data-indicator="5"></button>
+                           <button class="projects__carousel--indicator" aria-label="Indicator button" data-indicator="6"></button>
+                           <button class="projects__carousel--indicator" aria-label="Indicator button" data-indicator="7"></button>
+                           <button class="projects__carousel--indicator" aria-label="Indicator button" data-indicator="8"></button>
+                       </div>
+                   </div>
+               </div>
+            </section>
+
+            <aside class="quote">
+                <img src="assets/img/barrosdevlogo-white.svg" alt="Logo FullStackDev" class="quote__logo" data-animate="left">
+                <q class="quote__phrase" data-animate="right">We can only see a little of the future, but enough to know there's a lot to do. <br><strong>- Alan Turing</strong></q>
+            </aside>
+
+            <section class="contact" id="contact">
+               <div class="contact__container glass">
+                   <form action="https://formsubmit.co/33c2e220200913dc0ef7ee8106b6773e" method="POST" class="contact__form" data-animate="left">
+                       <h2 class="section-title">Contact</h2>
+
+                       <input type="hidden" name="_autoresponse" value="FullStackDev | Hello, I was thrilled to receive your message! Thank you for recognizing my work; I'll be in touch soon. Best regards. ;)">
+
+                       <div class="input-wrp">
+                           <input type="text" name="name" id="name" class="contact__form--field" data-field="name" required>
+                           <label for="name" class="contact__form--label" data-label="name">Name</label>
+                       </div>
+                       <div class="input-wrp">
+                           <input type="text" id="email" name="email" class="contact__form--field" data-field="email" required>
+                           <label for="email" class="contact__form--label" data-label="email">E-mail</label>
+                       </div>
+                       <div class="input-wrp">
+                           <input type="text" name="_subject" id="subject" class="contact__form--field" data-field="subject" required>
+                           <label for="subject" class="contact__form--label" data-label="subject">Subject</label>
+                       </div>
+                       <div class="input-wrp textarea">
+                           <textarea id="message" name="message" class="contact__form--field" data-field="message" required maxlength="280"></textarea>
+                           <label for="message" class="contact__form--label" data-label="message">Message</label>
+                       </div>
+
+                       <button type="submit" class="button button-primary">Send</button>
+                   </form>
+
+                   <div class="contact__text" data-animate="right">
+                       <h3 class="section-subtitle">Let's have a chat?</h3>
+                       <p class="contact__body">I'm always open to dialogue, idea exchange, and new connections! Can I help you in any way? Feel free to reach out through the form or via my social media:</p>
+                       <ul class="contact__social">
+                           <li class="contact__network">
+                               <a href="https://www.linkedin.com/in/gabrielcbarros/" title="LinkedIn" target="_blank" rel="noreferrer"><i class="ri-linkedin-box-fill"></i></a>
+                           </li>
+                           <li class="contact__network">
+                               <a href="https://github.com/gc-barros" title="GitHub" target="_blank" rel="noreferrer"><i class="ri-github-fill"></i></a>
+                           </li>
+                           <li class="contact__network">
+                               <a href="mailto:gc.barros81@gmail.com?subject=FullStackDev, we need to talk!" title="E-mail" target="_blank" rel="noreferrer"><i class="ri-mail-line"></i></a>
+                           </li>
+                       </ul>
+                       <img class="contact__avatar" src="assets/img/avatars/drink.png" alt="FullStackDev ready for a conversation">
+                   </div>
+               </div>
+            </section>
+        </main>
+        <footer class="footer">&copy;&nbsp;<span data-currentYear>2021</span>&nbsp;Barrosdev. All rights reserved. Powered by: Gabriel C. Barros.</footer>
+    </div>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
