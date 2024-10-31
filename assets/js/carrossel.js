@@ -13,7 +13,7 @@ function carrosselInit() {
   const dados = {
     projetos: [
       {
-        titulo: "Aluracord Bulbasaur",
+        titulo: "ArtxPro",
         link: "https://artxpro.com/",
         repositorio: "https://artxpro.com/",
         detalhes:
@@ -21,7 +21,7 @@ function carrosselInit() {
         techs: ["Next", "React", "Figma", "Angular"],
       },
       {
-        titulo: "Encurtalinks",
+        titulo: "Galaxy Toyota",
         link: "https://www.galaxytoyota.in/",
         repositorio: "https://www.galaxytoyota.in/",
         detalhes:
@@ -29,7 +29,7 @@ function carrosselInit() {
         techs: ["HTML5", "CSS3", "JavaScript", "React", "Figma"],
       },
       {
-        titulo: "Cineperfil",
+        titulo: "Face App",
         link: "https://www.faceapp.com/",
         repositorio: "https://www.faceapp.com/",
         detalhes:
@@ -37,7 +37,7 @@ function carrosselInit() {
         techs: ["HTML5", "Sass", "TypeScript", "React", "Figma"],
       },
       {
-        titulo: "Ballerini Devs",
+        titulo: "Construction Management",
         link: "https://www.braveheartventures.ca/",
         repositorio: "https://www.braveheartventures.ca/",
         detalhes:
@@ -45,7 +45,7 @@ function carrosselInit() {
         techs: ["HTML5", "CSS3", "JavaScript", "React", "Figma"],
       },
       {
-        titulo: "Mais Inova",
+        titulo: "AI image Generator",
         link: "https://getimg.ai/",
         repositorio: "https://getimg.ai/",
         detalhes:
