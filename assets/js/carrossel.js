@@ -14,74 +14,66 @@ function carrosselInit() {
     projetos: [
       {
         titulo: "Aluracord Bulbasaur",
-        link: "https://aluracord-bulbasaur.vercel.app/",
-        repositorio: "https://github.com/gc-barros/aluracord-bulbasaur",
+        link: "https://artxpro.com/",
+        repositorio: "https://artxpro.com/",
         detalhes:
-          "Chat em tempo real, customizado com o tema Bulbasaur. Utilizando seu username do GitHub, com informações obtidas via REST API, cada usuário pode enviar e excluir suas próprias mensagens e figurinhas.",
-        techs: ["HTML5", "CSS3", "JavaScript", "Next", "React", "Figma"],
+          "ArtxPro.com is a web design and development company based in Pakistan. It specializes in creating responsive, visually appealing, and functional websites tailored to client needs, offering services like CMS development, e-commerce solutions, and website maintenance. With over 12 years of experience and a 98.9% client retention rate, ArtxPro is focused on providing customized solutions and seamless user experiences​",
+        techs: ["Next", "React", "Figma", "Angular"],
       },
       {
         titulo: "Encurtalinks",
-        link: "https://encurtalinks.vercel.app/",
-        repositorio: "https://github.com/gc-barros/encurtalinks",
+        link: "https://www.galaxytoyota.in/",
+        repositorio: "https://www.galaxytoyota.in/",
         detalhes:
-          "Aplicação para encurtamento de links, utilizando a Bitly API. Além de encurtar e copiar links, o usuário também pode gerenciá-los na página 'meus links', com dados armazenados no localStorage do navegador.",
+          "Galaxy Toyota is a car dealership known for providing excellent customer service and a smooth buying experience. They receive positive feedback for transparency, helpful sales staff, and overall customer satisfaction. The dealership handles both new and pre-owned vehicles, building trust and a strong customer base over time",
         techs: ["HTML5", "CSS3", "JavaScript", "React", "Figma"],
       },
       {
         titulo: "Cineperfil",
-        link: "https://cineperfil.vercel.app/",
-        repositorio: "https://github.com/gc-barros/cineperfil",
+        link: "https://www.faceapp.com/",
+        repositorio: "https://www.faceapp.com/",
         detalhes:
-          "Front-end em React, desenvolvido para obtenção de nota na disciplina de Desenvolvimento de Sistemas Web (BICT/UFMA). Crie o seu perfil, gerencie seus filmes, séries e animes favoritos expressando sua opinião.",
+          "FaceApp is an advanced photo-editing application that uses AI to transform portrait photos with over 60 filters. It can apply features like age changes, retouching, facial hair, and background adjustments. Popular for its ease of use, FaceApp gained significant attention with its realistic aging filter, making it a top app in 2019. Available for download on both iOS and Android platforms, it boasts millions of active users worldwide.",
         techs: ["HTML5", "Sass", "TypeScript", "React", "Figma"],
       },
       {
         titulo: "Ballerini Devs",
-        link: "https://ballerinidevs-gabito.netlify.app/",
-        repositorio: "https://github.com/gc-barros/ballerini-devs",
+        link: "https://www.braveheartventures.ca/",
+        repositorio: "https://www.braveheartventures.ca/",
         detalhes:
-          "Desafio da Tech da Semana: React, proposto pela Comunidade Ballerini. Trata-se de um sistema de cadastro e gerenciamento de devs, com dados armazenados no localStorage e conexão com GitHub API.",
+          "Braveheart Ventures is a construction management company based in North Vancouver, British Columbia. They offer high-quality design and build services for both commercial and residential properties across the Vancouver Lower Mainland. Their services include commercial tenant improvements, retail store renovations, hospitality construction, and residential renovations, including condo projects. The company emphasizes flexibility, expertise, integrity, and efficiency in its operations.",
         techs: ["HTML5", "CSS3", "JavaScript", "React", "Figma"],
       },
       {
         titulo: "Mais Inova",
-        link: "https://maisinova.vercel.app/",
-        repositorio: "https://github.com/gc-barros/mais-inova",
+        link: "https://getimg.ai/",
+        repositorio: "https://getimg.ai/",
         detalhes:
-          "Projeto desenvolvido em equipe, durante o 2° desafio integrado do Programa Trilhas, cujo tema era Mercado Financeiro. O site aborda a temática ESG e possui um quiz interativo que identifica o tipo de perfil do investidor.",
-        techs: ["HTML5", "CSS3", "JavaScript", "Figma", "Trello"],
+          "getimg.ai is an AI-powered platform that enables users to create and edit images using text prompts. It offers a suite of tools",
+        techs: ["HTML5", ,"Node", "CSS3", "JavaScript", "Figma", "Trello"],
       },
       {
-        titulo: "Blue Wand",
-        link: "https://bluewand.vercel.app/",
-        repositorio: "https://github.com/gc-barros/blue-wand",
-        detalhes:
-          "Landing page da Blue Wand, um grupo 100% maranhense de apoio a homens acometidos por câncer de pênis. Projeto desenvolvido em grupo, durante o primeiro desafio integrado do Programa Trilhas (Inova Maranhão).",
-        techs: ["HTML5", "CSS3", "JavaScript", "Figma", "Trello"],
-      },
-      {
-        titulo: "Por Elas",
+        titulo: "Shang Hai Center",
         link: "https://porelas.ong.br/",
         repositorio: "https://github.com/gc-barros/por-elas",
         detalhes:
-          "Website do Por Elas, um projeto fantástico que mobiliza pessoas e realiza ações para mulheres em São Luís – MA. Landing page construída por um grupo de programadores do Programa Trilhas (Inova Maranhão).",
-        techs: ["HTML5", "CSS3", "JavaScript", "Figma", "Trello"],
+          "ShangHai center building design (pixel perfect).",
+        techs: ["Figma", "Trello"],
       },
       {
-        titulo: "Éguas, Siow!",
-        link: "https://eguassiow.netlify.app/",
-        repositorio: "https://github.com/gc-barros/2-workshop-trilhas",
+        titulo: "Flamngo",
+        link: "https://flamingotoursbd.com/",
+        repositorio: "https://flamingotoursbd.com/",
         detalhes:
-          "Website desenvolvido de forma individual, durante o 1º Workshop Trilhas, com o objetivo de promover a cultura do Estado do Maranhão, exaltando as suas belezas, encantos e diversidade, através de um site atrativo.",
+          "Flamingo Tours & Travel Ltd. is a Bangladeshi travel agency with over a decade of experience, offering comprehensive tourism and travel-related services. Their offerings include international and domestic flight bookings, visa and passport assistance, tour packages, hotel reservations, vehicle services, and Hajj and Umrah arrangements. They have offices in Chittagong and Cox's Bazar, providing 24/7 customer support. Flamingo Tours & Travel has been nominated multiple times for Bangladesh's Leading Travel Agency by the World Travel Awards.",
         techs: ["HTML5", "CSS3", "JavaScript", "Figma"],
       },
       {
-        titulo: "Pet Planet",
-        link: "https://petplanet.netlify.app/",
-        repositorio: "https://github.com/gc-barros/pet-planet",
+        titulo: "Sky Scanner",
+        link: "https://www.skyscanner.com/",
+        repositorio: "https://www.skyscanner.com/",
         detalhes:
-          'Projeto de uma clínica petshop fictícia, com telas de início, quem somos, serviços, fale conosco, login e cadastro. Desenvolvido em grupo, durante a disciplina de "Projeto e Desenvolvimento de Software" (front-end).',
+          'Skyscanner is a global travel search engine that allows users to compare and book flights, hotels, and car rentals. It aggregates data from various airlines and travel providers, enabling travelers to find the best deals and plan their trips efficiently. The platform offers features like flexible date searches and price alerts to help users secure optimal travel options. Skyscanner is accessible via its website and mobile app, catering to a wide audience worldwide.',
         techs: ["HTML5", "CSS3", "JavaScript", "Figma"],
       },
       /*
