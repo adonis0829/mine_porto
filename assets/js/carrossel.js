@@ -13,14 +13,6 @@ function carrosselInit() {
   const dados = {
     projetos: [
       {
-        titulo: "AI image Generator",
-        link: "https://getimg.ai/",
-        repositorio: "https://getimg.ai/",
-        detalhes:
-          "getimg.ai is an AI-powered platform that enables users to create and edit images using text prompts. It offers a suite of tools",
-        techs: ["HTML5", ,"Node", "CSS3", "JavaScript", "Figma", "Trello"],
-      },
-      {
         titulo: "ArtxPro",
         link: "https://artxpro.com/",
         repositorio: "https://artxpro.com/",
@@ -51,6 +43,14 @@ function carrosselInit() {
         detalhes:
           "Braveheart Ventures is a construction management company based in North Vancouver, British Columbia. They offer high-quality design and build services for both commercial and residential properties across the Vancouver Lower Mainland. Their services include commercial tenant improvements, retail store renovations, hospitality construction, and residential renovations, including condo projects. The company emphasizes flexibility, expertise, integrity, and efficiency in its operations.",
         techs: ["HTML5", "CSS3", "JavaScript", "React", "Figma"],
+      },
+      {
+        titulo: "AI image Generator",
+        link: "https://getimg.ai/",
+        repositorio: "https://getimg.ai/",
+        detalhes:
+          "getimg.ai is an AI-powered platform that enables users to create and edit images using text prompts. It offers a suite of tools",
+        techs: ["HTML5", ,"Node", "CSS3", "JavaScript", "Figma", "Trello"],
       },
       {
         titulo: "Shang Hai Center",
