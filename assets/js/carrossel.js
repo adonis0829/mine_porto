@@ -13,6 +13,14 @@ function carrosselInit() {
   const dados = {
     projetos: [
       {
+        titulo: "AI image Generator",
+        link: "https://getimg.ai/",
+        repositorio: "https://getimg.ai/",
+        detalhes:
+          "getimg.ai is an AI-powered platform that enables users to create and edit images using text prompts. It offers a suite of tools",
+        techs: ["React", ,"Node", "Figma", "Trello"],
+      },
+      {
         titulo: "ArtxPro",
         link: "https://artxpro.com/",
         repositorio: "https://artxpro.com/",
@@ -45,14 +53,6 @@ function carrosselInit() {
         techs: ["HTML5", "CSS3", "JavaScript", "React", "Figma"],
       },
       {
-        titulo: "AI image Generator",
-        link: "https://getimg.ai/",
-        repositorio: "https://getimg.ai/",
-        detalhes:
-          "getimg.ai is an AI-powered platform that enables users to create and edit images using text prompts. It offers a suite of tools",
-        techs: ["HTML5", ,"Node", "CSS3", "JavaScript", "Figma", "Trello"],
-      },
-      {
         titulo: "Shang Hai Center",
         link: "https://porelas.ong.br/",
         repositorio: "https://github.com/gc-barros/por-elas",
@@ -76,16 +76,6 @@ function carrosselInit() {
           'Skyscanner is a global travel search engine that allows users to compare and book flights, hotels, and car rentals. It aggregates data from various airlines and travel providers, enabling travelers to find the best deals and plan their trips efficiently. The platform offers features like flexible date searches and price alerts to help users secure optimal travel options. Skyscanner is accessible via its website and mobile app, catering to a wide audience worldwide.',
         techs: ["HTML5", "CSS3", "JavaScript", "Figma"],
       },
-      /*
-      {
-        titulo: "Pet Planet | Usuário",
-        link: "https://petplanet.netlify.app/07-user-page.html/",
-        repositorio: "https://github.com/gc-barros/pet-planet",
-        detalhes:
-          "Páginas internas da clínica Pet Planet, para as quais os usuários seriam direcionados após o login e cadastro, com acesso a telas navegáveis de início, produtos, serviços e agenda (back-end não integrado).",
-        techs: ["HTML5", "CSS3", "JavaScript", "Figma"],
-      },
-      */
     ],
   };
 
