@@ -26,7 +26,7 @@ function carrosselInit() {
         repositorio: "https://artxpro.com/",
         detalhes:
           "ArtxPro.com is a web design and development company based in Pakistan. It specializes in creating responsive, visually appealing, and functional websites tailored to client needs, offering services like CMS development, e-commerce solutions, and website maintenance. With over 12 years of experience and a 98.9% client retention rate, ArtxPro is focused on providing customized solutions and seamless user experiences​",
-        techs: ["Next", "React", "Figma", "Angular"],
+        techs: ["Next", "React", "Laravel", "Figma", "Angular"],
       },
       {
         titulo: "Galaxy Toyota",
@@ -34,7 +34,7 @@ function carrosselInit() {
         repositorio: "https://www.galaxytoyota.in/",
         detalhes:
           "Galaxy Toyota is a car dealership known for providing excellent customer service and a smooth buying experience. They receive positive feedback for transparency, helpful sales staff, and overall customer satisfaction. The dealership handles both new and pre-owned vehicles, building trust and a strong customer base over time",
-        techs: ["HTML5", "CSS3", "JavaScript", "React", "Figma"],
+        techs: ["HTML5", "CSS3","PHP", "Laravel", "JavaScript", "React", "Figma"],
       },
       {
         titulo: "Face App",
@@ -42,7 +42,7 @@ function carrosselInit() {
         repositorio: "https://www.faceapp.com/",
         detalhes:
           "FaceApp is an advanced photo-editing application that uses AI to transform portrait photos with over 60 filters. It can apply features like age changes, retouching, facial hair, and background adjustments. Popular for its ease of use, FaceApp gained significant attention with its realistic aging filter, making it a top app in 2019. Available for download on both iOS and Android platforms, it boasts millions of active users worldwide.",
-        techs: ["HTML5", "Sass", "TypeScript", "React", "Figma"],
+        techs: ["HTML5", "Sass", "TypeScript","PHP", "Laravel", "React", "Figma"],
       },
       {
         titulo: "Construction Management",
