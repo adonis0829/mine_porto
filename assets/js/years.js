@@ -12,8 +12,8 @@ function getYearsInit() {
     idadeAtual++;
   }
 
-  spanIdade.innerHTML = idadeAtual + ' anos';
-  spanAnoAtual.innerHTML = anoAtual;
+  spanIdade.innerHTML = "";
+  spanAnoAtual.innerHTML = "";
 }
 
 export default getYearsInit;
