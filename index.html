@@ -383,10 +383,10 @@
                             <a href="#projetos" class="cabecalho__link cabecalho__link--projetos"
                                 data-botao="projetos">Projects</a>
                         </li>
-                        <li class="cabecalho__item">
+                        <!-- <li class="cabecalho__item">
                             <a href="#contato" class="cabecalho__link cabecalho__link--contato"
                                 data-botao="contato">Contact</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
@@ -396,13 +396,16 @@
 
             <section class="introducao" id="introducao">
                 <div class="introducao__decoracao"></div>
-                <div class="introducao__texto vidro" data-anima="left">
-                    <h2 class="introducao__titulo">Tech-savvy <span class="texto-gradient">Full Stack </span>Developer</h2>
-                    <p class="introducao__corpo">Completed Web App: <span style="font-size: xx-large; padding: 5px;" class="texto-gradient">19</span> projects</p>
-                    <p class="introducao__corpo">Completed Mobile App: <span style="font-size: xx-large; padding: 5px;" class="texto-gradient">13</span> projects</p>
+                <div class="introducao__texto vidro animate" data-anima="left" style="text-align: center;">
+                    <h2 class="introducao__titulo">Tech-savvy <span class="texto-gradient">Full Stack </span>Developer
+                        <h2 class="introducao__titulo" style="font-size: 70px;margin: 42px;"><span
+                                class="texto-gradient">Sergey Ivanichenko</span></h2>
+                    </h2>
+
                     <div class="caixa-botao">
                         <button class="botao botao-primario" data-botao="projetos">View Projects</button>
-                        <button class="botao botao-secundario" data-botao="sobre"><span class="texto-gradient">View My Skills</span></button>
+                        <button class="botao botao-secundario" data-botao="sobre"><span class="texto-gradient">View My
+                                Skills</span></button>
                     </div>
                 </div>
             </section>
@@ -411,7 +414,7 @@
                 data-scrollToTop><i class="ri-arrow-up-s-line"></i></button>
 
             <section class="sobre" id="sobre">
-                <div class="sobre__container vidro">      
+                <div class="sobre__container vidro">
                     <div class="sobre__cinto" data-anima="left">
                         <div class="sobre__cinto--container">
                             <img src="assets/img/avatares/laptop.png" alt="Laptop com o logotipo BarrosDEV"
@@ -502,7 +505,11 @@
                                     </li>
                                 </ul>
 
-                                <p class="sobre__cinto--texto">My work goes beyond standard development—I integrate unique features and <strong class="texto-gradient">powerful AI-driven</strong> functionality, enabling apps to deliver exceptional, intelligent, and seamless experiences. With a commitment to cutting-edge technology, I create solutions that are as forward-thinking as they are effective.
+                                <p class="sobre__cinto--texto">My work goes beyond standard development—I integrate
+                                    unique features and <strong class="texto-gradient">powerful AI-driven</strong>
+                                    functionality, enabling apps to deliver exceptional, intelligent, and seamless
+                                    experiences. With a commitment to cutting-edge technology, I create solutions that
+                                    are as forward-thinking as they are effective.
                                 </p>
                             </div>
                         </div>
@@ -530,19 +537,6 @@
                             Our goal is to combat misinformation and encourage prevention and treatment for this
                             disease.
                         </p>
-                        <h4 class="subtitulo-secao subtitulo-techs">Technologies:</h4>
-                        <ul class="projetos__techs" data-projeto="techs">
-                            <li class="projetos__techs--item" title="HTML5"></li>
-                            <li class="projetos__techs--item" title="CSS3"></li>
-                            <li class="projetos__techs--item" title="JavaScript"></li>
-                            <li class="projetos__techs--item" title="Sass"></li>
-                            <li class="projetos__techs--item" title="TypeScript"></li>
-                            <li class="projetos__techs--item" title="Next"></li>
-                            <li class="projetos__techs--item" title="React"></li>
-                            <li class="projetos__techs--item" title="Figma"></li>
-                            <li class="projetos__techs--item" title="Trello"></li>
-                            <li class="projetos__techs--item" title="GitHub"></li>
-                        </ul>
                         <div class="caixa-botao">
                             <button class="botao botao-primario" data-botao="visitar" onclick="">Visit the
                                 website</button>
@@ -625,61 +619,9 @@
                     </div>
                 </div>
             </section>
-
-            <aside class="citacao">
-                <img src="assets/img/barrosdevlogo-white.svg" alt="Logo BarrosDEV" class="citacao__logo"
-                    data-anima="left">
-                <q class="citacao__frase" data-anima="right">We can only see a little into the future, but enough to
-                    realize that there is much to do. <br><strong></strong></q>
-            </aside>
-
-            <section class="contato" id="contato">
-                <div class="contato__container vidro">
-                    <form action="https://formsubmit.co/33c2e220200913dc0ef7ee8106b6773e" method="POST"
-                        class="contato__formulario" data-anima="left">
-                        <h2 class="titulo-secao">Contact</h2>
-
-                        <input type="hidden" name="_autoresponse"
-                            value="BarrosDEV | Hello, I was very happy to receive your message! Thank you for recognizing my work, I will be contacting you soon, hugs.">
-
-                        <div class="input-wrp">
-                            <input type="text" name="name" id="name" class="contato__formulario--campo"
-                                data-campo="nome" required>
-                            <label for="name" class="contato__formulario--label" data-label="nome">Name</label>
-                        </div>
-                        <div class="input-wrp">
-                            <input type="text" id="email" name="email" class="contato__formulario--campo"
-                                data-campo="email" required>
-                            <label for="email" class="contato__formulario--label" data-label="email">E-mail</label>
-                        </div>
-                        <div class="input-wrp">
-                            <input type="text" name="_subject" id="assunto" class="contato__formulario--campo"
-                                data-campo="assunto" required>
-                            <label for="assunto" class="contato__formulario--label" data-label="assunto">Subject</label>
-                        </div>
-                        <div class="input-wrp textarea">
-                            <textarea id="message" name="message" class="contato__formulario--campo"
-                                data-campo="mensagem" required maxlength="280"></textarea>
-                            <label for="message" class="contato__formulario--label"
-                                data-label="mensagem">Message</label>
-                        </div>
-
-                        <button type="submit" class="botao botao-primario">Send</button>
-                    </form>
-
-                    <div class="contato__texto" data-anima="right">
-                        <h3 class="subtitulo-secao">Let's chat</h3>
-                        <p class="contato__corpo">I am always open to dialogue, exchange of ideas and new connections!
-                            Can I help you in any way? Feel free to contact me using the form or through my social
-                            networks:</p>
-
-                        <img class="contato__avatar" src="assets/img/avatares/bebida.png"
-                            alt="BarrosDEV pronto para uma conversa">
-                    </div>
-                </div>
-            </section>
         </main>
-        <footer class="rodape">&copy;&nbsp;<span data-anoAtual>2024</span>&nbsp;FullStack Dev - Sergey Ivanichenko. All rights reserved.
+        <footer class="rodape">&copy;&nbsp;<span data-anoAtual>2024</span>&nbsp;FullStack Dev - Sergey Ivanichenko. All
+            rights reserved.
         </footer>
     </div>
 

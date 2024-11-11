@@ -6,8 +6,8 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1124px 1fr;
-    background: url(../../assets/img/barros.png) no-repeat fixed;
-    background-position: calc(50% + 360px) 120px;
+    /* background: url(../../assets/img/barros.png) no-repeat fixed; */
+    /* background-position: calc(50% + 360px) 120px; */
 }
 
 .introducao__titulo {
@@ -31,7 +31,7 @@
 
 .introducao__texto {
     padding: 32px;
-    max-width: 656px;
+    max-width: 1200px;
     height: fit-content;
     border-radius: 24px;
     grid-column: 2;
