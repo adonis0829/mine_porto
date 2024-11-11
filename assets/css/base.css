@@ -80,3 +80,161 @@ body {
         background-position: -240px top, right 280px, left 1800px;
     }
 }
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    background-color: #021027;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .background {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    mask-image: radial-gradient(
+      white 0%,
+      white 30%,
+      transparent 80%,
+      transparent
+    );
+  }
+  
+  .circle-container {
+    position: absolute;
+    transform: translateY(-10vh);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .circle-container .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    background-image: radial-gradient(
+      hsl(180, 100%, 80%),
+      hsl(180, 100%, 80%) 10%,
+      hsla(180, 100%, 80%, 0) 56%
+    );
+    animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+  }
+  
+  @keyframes fade-frames {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0.7;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scale-frames {
+    0% {
+      transform: scale3d(0.4, 0.4, 1);
+    }
+  
+    50% {
+      transform: scale3d(2.2, 2.2, 1);
+    }
+  
+    100% {
+      transform: scale3d(0.4, 0.4, 1);
+    }
+  }
+  
+  /* Loop through particles */
+  .circle-container:nth-child(1) {
+    width: 2px;
+    height: 2px;
+    animation-name: move-frames-1;
+    animation-duration: 37000ms;
+    animation-delay: 5000ms;
+  }
+  .circle-container:nth-child(1) .circle {
+    animation-delay: 2000ms;
+  }
+  
+  .circle-container:nth-child(2) {
+    width: 3px;
+    height: 3px;
+    animation-name: move-frames-2;
+    animation-duration: 42000ms;
+    animation-delay: 8000ms;
+  }
+  .circle-container:nth-child(2) .circle {
+    animation-delay: 3000ms;
+  }
+  
+  /* Repeat for additional particles up to your particle count */
+  
+  @keyframes move-frames-1 {
+    from {
+      transform: translate3d(50vw, 100vh, 0);
+    }
+    to {
+      transform: translate3d(50vw, -50vh, 0);
+    }
+  }
+  
+  @keyframes move-frames-2 {
+    from {
+      transform: translate3d(70vw, 90vh, 0);
+    }
+    to {
+      transform: translate3d(70vw, -60vh, 0);
+    }
+  }
+  
+  /* Repeat keyframes for additional particles up to your particle count */
+  
+  .message {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: white;
+    font-family: "Josefin Slab", serif;
+    line-height: 27px;
+    font-size: 18px;
+    text-align: right;
+    pointer-events: none;
+    animation: message-frames 1.5s ease 5s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes message-frames {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

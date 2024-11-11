@@ -4,7 +4,6 @@ import carrosselInit from "./carrossel.js";
 import linksInternosInit from "./linksInternos.js"
 import animaScrollInit from "./animaScroll.js";
 import loadingInit from "./loading.js";
-import getYearsInit from "./years.js";
 
 document.addEventListener("DOMContentLoaded", function() {
     menuLateralInit();
@@ -13,5 +12,4 @@ document.addEventListener("DOMContentLoaded", function() {
     linksInternosInit();
     animaScrollInit();
     loadingInit();
-    getYearsInit();
 });
