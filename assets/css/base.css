@@ -123,6 +123,7 @@ body {
 
 .circle-container {
     position: absolute;
+    z-index: 99;
     transform: translateY(-10vh);
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
